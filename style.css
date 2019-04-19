@@ -1,0 +1,31 @@
+body {
+    background-color: powderblue;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: black;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+  
+  /* visited link */
+a:visited {
+    color: blue;
+}
+  
+  /* mouse over link */
+ a:hover {
+    color: red;
+}
+  
+  /* selected link */
+a:active {
+    color: blue;
+}
