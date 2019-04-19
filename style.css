@@ -4,10 +4,27 @@ body {
 
 h1 {
     color: blue;
+    font-size: 18px;
+    text-align: center
 }
 
 p {
-    color: black;
+    font-size: 14px;
+    color: black
+}
+
+.headerp {
+    text-align: center
+}
+
+.bodytag {
+    padding: 16px;
+    background-color: powderblue;
+    margin: 16px
+}
+
+a {
+    font-size: 13px
 }
 
 /* unvisited link */
@@ -28,4 +45,8 @@ a:visited {
   /* selected link */
 a:active {
     color: blue;
+}
+
+* {
+    font-family: "Times New Roman", Times, serif;
 }
