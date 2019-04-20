@@ -37,7 +37,7 @@ a:active {
 
 .header-image {
     position: relative;
-    background-image: url("images/flower.jpg");
+    background-image: url("https://raw.githubusercontent.com/slavril/slavril.github.io/master/images/flower.jpg");
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
