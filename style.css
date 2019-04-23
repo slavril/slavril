@@ -4,27 +4,11 @@ body {
 
 h1 {
     color: blue;
-    font-size: 18px;
-    text-align: center
+    font-size: 3em
 }
 
 p {
-    font-size: 14px;
-    color: black
-}
-
-.headerp {
-    text-align: center
-}
-
-.bodytag {
-    padding: 16px;
-    background-color: powderblue;
-    margin: 16px
-}
-
-a {
-    font-size: 13px
+    color: black;
 }
 
 /* unvisited link */
@@ -48,5 +32,18 @@ a:active {
 }
 
 * {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.header-image {
+    position: relative;
+    background-image: url("https://raw.githubusercontent.com/slavril/slavril.github.io/master/images/flower.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover 
+}
+
+.headerclass {
+    text-align: center
 }
