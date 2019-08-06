@@ -1,5 +1,5 @@
 body {
-    background-color: powderblue;
+    background-color: #7FDBFF;
 }
 
 h1 {
@@ -22,7 +22,7 @@ a:visited {
 }
   
   /* mouse over link */
- a:hover {
+a:hover {
     color: red;
 }
   
@@ -38,7 +38,7 @@ a:active {
 .header-image {
     position: relative;
     background-image: url("https://raw.githubusercontent.com/slavril/slavril.github.io/master/images/flower.jpg");
-    height: 500px;
+    height: 320px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover 

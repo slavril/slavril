@@ -1,45 +1,44 @@
 <!DOCTYPE html>
-<HTML>
-    <HEAD>
-        <TITLE>Sơn Đặng</TITLE>
+
+<html>
+    <head>
+        <title>Son Dang</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="gallery.css">
-    </HEAD>
+        <script src="mainprocessing.js"></script>
 
-    <BODY BGCOLOR="FFFFFF">
-        <div class="header-image">
-        </div>    
+        <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
 
-        <HR>
+        <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-app.js"></script>
+
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-firestore.js"></script>
+
+        <script src="myfirestore.js"></script>
+
+    </head>
+    <body bgcolor="FFFFFF">
+        <header>
+            <div class="header-image">
+            </div>
             <div class="headerclass">
                 <H1>Chào các đồng môn</H1>
                 <P> Trang này được github nó tài trợ, chứ mình dev nghèo tiền đâu mua tên miền.</P>
             </div>
-        <HR>
+        </header>
+        <section>
+            <article>
+            </article>
+        </section>
+        <footer>
+                <p>Tham quan thêm tại: </p>
+                <a href="https://www.facebook.com/slavril" target="_blank">Facebook</a>
+                <a href="https://www.linkedin.com/in/sondanghuy/" target="_blank">linkedin</a>
+                <a href="https://github.com/slavril" target="_blank">github</a>
+                <a href="https://www.instagram.com/slavril/" target="_blank">Instagram</a>
+        </footer>
+    </body>
 
-        <p>Tham quan thêm tại: </p>
-        <a href="https://www.facebook.com/slavril" target="_blank">Facebook</a>
-        <a href="https://www.linkedin.com/in/sondanghuy/" target="_blank">linkedin</a>
-        <a href="https://github.com/slavril" target="_blank">github</a>
-        <a href="https://www.instagram.com/slavril/" target="_blank">Instagram</a>
-
-        <h2>Những sản phẩm đã làm qua</h2>
-        
-        <h3>Đồ họa</h3>
-
-        <div class="gallery">
-            <a target="_blank" href="https://raw.githubusercontent.com/slavril/slavril.github.io/master/images/flower.jpg">
-              <img src="https://raw.githubusercontent.com/slavril/slavril.github.io/master/images/flower.jpg">
-            </a>
-            <div class="desc">Add a description of the image here</div>
-          </div>
-          
-          <div class="gallery">
-            <a target="_blank" href="https://raw.githubusercontent.com/slavril/slavril.github.io/master/images/flower.jpg">
-              <img src="https://raw.githubusercontent.com/slavril/slavril.github.io/master/images/flower.jpg">
-            </a>
-            <div class="desc">Add a description of the image here</div>
-          </div>
-
-    </BODY>
-</HTML>
+</html>
