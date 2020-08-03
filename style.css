@@ -1,5 +1,5 @@
 body {
-    background-color: #7FDBFF;
+    background-color: #ffffff;
 }
 
 h1 {
@@ -31,6 +31,10 @@ a:active {
     color: blue;
 }
 
+.link {
+  font-size: large;
+}
+
 * {
     font-family: 'Times New Roman', Times, serif
 }
@@ -41,7 +45,7 @@ a:active {
     height: 320px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover 
+    background-size: cover;
 }
 
 .headerclass {
@@ -83,4 +87,17 @@ div.gallery {
   
   tr:nth-child(even) {
     background-color: #dddddd;
+  }
+
+  .full-width {
+    width: 1024px;
+  }
+
+  .body {
+    margin: auto;
+    padding: 10px;
+  }
+
+  .green-border {
+    border: 3px solid #73AD21;
   }
